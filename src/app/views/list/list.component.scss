@@ -1,0 +1,50 @@
+
+.poke-filter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  padding: 10px;
+  border: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #666;
+  color: #fff;
+}
+
+.selected-pokemon {
+  margin-top: 50px;
+  margin-left: 8px;
+  position: fixed;
+}
+
+.poke-list {
+  float: right;
+  margin-top: 50px;
+  width: 70%;
+  text-transform: capitalize;
+  opacity: 0.95;
+}
+
+.poke-list-item {
+  position: relative;
+  padding: 15px 10px;
+  border: 1px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  list-style: none;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.poke-list-item:hover {
+  background-color: #555;
+}
+
+.poke-list-item > img {
+  margin-right: 10px;
+}
